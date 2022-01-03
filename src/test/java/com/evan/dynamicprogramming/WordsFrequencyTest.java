@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.WordsFrequency.WordsFrequency;
+import com.evan.dynamicprogramming.hash.WordsFrequency.WordsFrequency;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

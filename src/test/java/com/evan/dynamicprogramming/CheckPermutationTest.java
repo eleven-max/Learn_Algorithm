@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.CheckPermutation.Solution;
+import com.evan.dynamicprogramming.hash.CheckPermutation.Solution;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

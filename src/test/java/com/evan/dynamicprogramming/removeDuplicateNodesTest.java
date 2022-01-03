@@ -2,7 +2,7 @@ package com.evan.dynamicprogramming;
 
 import com.evan.dynamicprogramming.Common.CommonUtil;
 import com.evan.dynamicprogramming.Common.ListNode;
-import com.evan.dynamicprogramming.removeDuplicateNodes.Solution;
+import com.evan.dynamicprogramming.hash.removeDuplicateNodes.Solution;
 import org.junit.jupiter.api.Test;
 
 public class removeDuplicateNodesTest {

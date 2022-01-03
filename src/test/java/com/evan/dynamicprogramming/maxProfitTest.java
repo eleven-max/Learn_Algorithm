@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.maxProfit.Solution;
+import com.evan.dynamicprogramming.hash.maxProfit.Solution;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.tribonacci.Solution;
+import com.evan.dynamicprogramming.hash.tribonacci.Solution;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

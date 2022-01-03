@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.intersect.Solution;
+import com.evan.dynamicprogramming.hash.intersect.Solution;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.lastRemaining.Solution;
+import com.evan.dynamicprogramming.hash.lastRemaining.Solution;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.LRUCache.LRUCache;
+import com.evan.dynamicprogramming.hash.LRUCache.LRUCache;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

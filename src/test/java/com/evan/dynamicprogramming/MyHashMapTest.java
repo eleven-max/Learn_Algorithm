@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.MyHashMap.MyHashMap;
+import com.evan.dynamicprogramming.hash.MyHashMap.MyHashMap;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

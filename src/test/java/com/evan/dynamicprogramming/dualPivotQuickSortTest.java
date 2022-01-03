@@ -1,6 +1,6 @@
 package com.evan.dynamicprogramming;
 
-import com.evan.dynamicprogramming.dualPivotQuickSort.Solution;
+import com.evan.dynamicprogramming.hash.dualPivotQuickSort.Solution;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
