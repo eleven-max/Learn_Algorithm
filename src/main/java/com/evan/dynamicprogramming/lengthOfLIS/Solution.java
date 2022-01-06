@@ -1,6 +1,5 @@
 package com.evan.dynamicprogramming.lengthOfLIS;
 
-import sun.applet.Main;
 
 import java.util.Arrays;
 
