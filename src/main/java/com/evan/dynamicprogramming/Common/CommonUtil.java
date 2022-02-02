@@ -52,26 +52,22 @@ public class CommonUtil {
     }
 
     public static TreeNode createTree(int[] nodeValues, int index) {
-        if(null == nodeValues) return null;
-        if(index >= nodeValues.length) return null;
+        if (null == nodeValues) return null;
+        if (index >= nodeValues.length) return null;
 
         TreeNode node = new TreeNode(nodeValues[index]);
-        node.left = createTree(nodeValues, index * 2+ 1);
-        node.right = createTree(nodeValues, index * 2+ 2);
+        node.left = createTree(nodeValues, index * 2 + 1);
+        node.right = createTree(nodeValues, index * 2 + 2);
         return node;
     }
 
     public static TreeNode createTree(Integer[] nodeValues, int index) {
-        if(null == nodeValues) return null;
-        if(index >= nodeValues.length) return null;
+        if (null == nodeValues || index>= nodeValues.length ||
+                null == nodeValues[index]) return null;
 
-        if(null != nodeValues[index]){
-            TreeNode node = new TreeNode(nodeValues[index]);
-            node.left = createTree(nodeValues, index * 2+ 1);
-            node.right = createTree(nodeValues, index * 2+ 2);
-            return node;
-        }
-
-        return null;
+        TreeNode node = new TreeNode(nodeValues[index]);
+        node.left = createTree(nodeValues, index * 2 + 1);
+        node.right = createTree(nodeValues, index * 2 + 2);
+        return node;
     }
 }
