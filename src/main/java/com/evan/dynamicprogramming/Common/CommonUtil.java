@@ -29,6 +29,9 @@ public class CommonUtil {
         System.out.println("---------------------------");
     }
 
+    public static void printArray(int[] nums){
+        System.out.println(Arrays.toString(nums));
+    }
     public static ListNode createList(int[] nums) {
         if (null == nums || 0 == nums.length) return null;
         ListNode node = new ListNode(nums[0]);
