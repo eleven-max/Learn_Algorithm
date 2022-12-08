@@ -5,7 +5,13 @@ import java.util.Arrays;
 public class Solution {
 
     public static void main(String[] args) {
-        doTest();
+        String v3 = "kkk";
+        f(v3);
+        System.out.println(v3);
+    }
+
+    private static void f(String a){
+        a = "33333";
     }
 
 

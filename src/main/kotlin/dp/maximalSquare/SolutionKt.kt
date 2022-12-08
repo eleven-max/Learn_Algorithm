@@ -36,7 +36,7 @@ class SolutionKt {
 }
 
 fun main() {
-    val matrix: Array<CharArray> = Array{ arrayOf('1')}
+    val matrix: Array<CharArray> = arrayOf(charArrayOf('1'), charArrayOf('0'))
     val solutionKt = SolutionKt()
     solutionKt.maximalSquare(matrix)
 }
